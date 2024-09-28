@@ -21,7 +21,20 @@ This script drives the main execution of the BPE algorithm, handling data prepro
 
 Instructions:
 
-To Train BPE: Run the BPE script with the following command:
+ - To Train BPE: Run the BPE script with the following command:
 
 python3 bpe.py --train "<path_to_text_file>"
+
+- To tokenize a new sentences:
+
+  python main.py --tokenize "Jūs pavėlavote į vakarėlį"
+
+- To encode a new sentence:
+
+  python main.py --encode "Jūs pavėlavote į vakarėlį"
+
+- To decode the above sentence:
+
+  python main.py --decode "[2000, 2001, 2002, 1320, 2003, 149, 304, 56, 2004, 2005, 50, 229, 26, 2003, 2006, 2005]"
+  
 
